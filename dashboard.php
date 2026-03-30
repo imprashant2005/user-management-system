@@ -10,6 +10,6 @@ if (!isset($_SESSION['user'])) {
 
 <h2>Dashboard</h2> // Version 2 update
 
-<p>Welcome: <?php echo $_SESSION['user']; ?></p>
+<p>Welcome: <?php echo $_SESSION['user']; ?></p> // Version 3 update
 
 <a href="logout.php">Logout</a>
