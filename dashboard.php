@@ -8,7 +8,7 @@ if (!isset($_SESSION['user'])) {
 }
 ?>
 
-<h2>Dashboard</h2>
+<h2>Dashboard</h2> // Version 2 update
 
 <p>Welcome: <?php echo $_SESSION['user']; ?></p>
 
